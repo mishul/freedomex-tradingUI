@@ -1,0 +1,6 @@
+<tr data-order="<%= index %>" data-price="<%= price %>" data-volume="<%= volume %>" class="<%= classes %>">
+  <td class="text-right total"><div><%= formatter.amount(volume, price) %></div></td>
+  <td class="text-right volume"><div><%= formatter.mask_fixed_volume(volume) %></div></td>
+  <td class="text-right price text-up"><div><%= formatter.mask_fixed_price(price) %></div></td>
+  <td class="text-right text-primary text-uppercase"><div>Sell</div></td>
+</tr>

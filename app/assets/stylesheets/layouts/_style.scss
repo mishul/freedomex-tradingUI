@@ -1,0 +1,684 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700');
+
+body {
+  background:#fff;
+  font-family:Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+p {
+  margin-bottom:20px;
+}
+
+.clearout {
+  height:20px;
+  clear:both;
+}
+header #settings .dropdown-menu {
+  background-color: #fff !important;
+  width: 170px!important;
+  box-shadow:0px 0px 12px #ccc!important;
+  border: 0!important;
+}
+header #settings .dropdown-menu li {
+    display: block;
+}
+header #settings .dropdown-menu a {
+  color: #333 !important;
+  font-size: 14px !important;
+  padding: 5px 10px !important;
+}
+#flexiselDemo1, #flexiselDemo2, #flexiselDemo3 {
+  display:none;
+}
+
+.nbs-flexisel-container {
+  position:relative;
+  max-width:100%;
+}
+.nbs-flexisel-ul {
+  position:relative;
+  width:99999px;
+  margin:0px;
+  padding:0px;
+  list-style-type:none;
+  text-align:center;
+  overflow: auto;
+}
+
+.nbs-flexisel-inner {
+  position: relative;
+  overflow: hidden;
+  float:left;
+  width:100%;
+
+}
+
+.nbs-flexisel-item {
+  float:left;
+  margin:0px;
+  padding:0px;
+  cursor:pointer;
+  position:relative;
+  line-height:0px;
+}
+.nbs-flexisel-item img {
+  max-width: 100%;
+  cursor: pointer;
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/*** Navigation ***/
+
+.nbs-flexisel-nav-left, .nbs-flexisel-nav-right {
+  padding:5px 10px;
+  border-radius:15px;
+  -moz-border-radius:15px;
+  -webkit-border-radius:15px;
+  position: absolute;
+  cursor: pointer;
+  z-index: 4;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+}
+
+.nbs-flexisel-nav-left {
+  left: 10px;
+}
+
+.nbs-flexisel-nav-left:before {
+  content: "<"
+}
+
+.nbs-flexisel-nav-left.disabled {
+  opacity: 0.4;
+}
+
+.nbs-flexisel-nav-right {
+  right: 5px;
+}
+
+.nbs-flexisel-nav-right:before {
+  content: ">"
+}
+
+.nbs-flexisel-nav-right.disabled {
+  opacity: 0.4;
+}
+
+
+/************/
+.main-nav-header {
+    box-shadow: 0px 0px 5px #ccc;
+    margin-bottom: 50px;
+    padding: 0 1rem !important;
+    min-height: 60px;
+    background-color: #fff;
+}
+.logo-box {
+    display: inline-block;
+}
+.main-nav-header .nav-img {
+    display: inline-block;
+    margin: 0 auto;
+    width: 216px;
+    height: auto;
+    position: inherit;
+    top: 0;
+    left: 0;
+    max-height: inherit;
+    -webkit-transform: inherit;
+    transform: inherit;
+}
+.network-box {
+    display: inline-block;
+    color: #123099;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: normal;
+    padding-top: 10px;
+    vertical-align: top;
+}
+.network-box span {
+    display: inline-block;
+    margin-right: 5px;
+}
+.green-dot {
+    display: inline-block;
+    padding: 0 4px;
+}
+.network-box span {
+    display: inline-block;
+    margin-right: 5px;
+}
+.user-icon {
+    width: 37px;
+    border-radius: 100%;
+    overflow: hidden;
+    vertical-align: middle;
+    display: inline-block;
+}
+.user-icon img {
+    width: 100%;
+    height: 100%;
+}
+header .account-settings {
+    min-width: 140px;
+}
+.nav-menu-right .dropdown .nav-link{
+    padding:0;
+}
+.right-nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.nav-menu-right .nav-link {
+    display: inline-block;
+    width: auto !important;
+}
+.nav-menu-right .nav-link {
+    padding: 10px 0;
+}
+
+.log-out-btn {
+    background-color: #f81f34;
+    padding: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.dropdown-menu .dropdown-item i {
+    color: #444;
+    margin-right: 2px;
+}
+
+.bg-secondary {
+    color: #333;
+}
+.nav-menu-right li {
+    vertical-align: -webkit-baseline-middle;
+}
+
+.right-nav li {
+    display: inline-block;
+    margin-right: 8px;
+}
+.right-nav li:last-child {
+    margin-right: 0px;
+}
+
+header #languages {
+    width: 64px;
+    min-width: 64px;
+}
+header span + span {
+    margin-left: 10px !important;
+    margin-right: 10px;
+    font-size: 14px;
+    color: #333;
+}
+.nbs-flexisel-inner {
+    border:0;
+}
+.nbs-flexisel-nav-left, .nbs-flexisel-nav-right {
+    display: none;
+}
+.value-box {
+    display: inline-block;
+    /*justify-content: space-between;*/
+    margin: 0 4px;
+}
+
+.value-box .value-inner{
+    display: inline-block !important;
+    font-size: 18px;
+    color: #333;
+    width: 75px;
+    vertical-align: text-top;
+    float: left;
+}
+
+.value-box .value-inner h4{
+    font-weight: 600;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-family: raleway;
+    margin-top: 10px;
+}
+ .value-box .value-inner h3 {
+    font-weight: bold;
+    font-size: 14px;
+    font-family: raleway;
+ }
+
+.red-clr{
+    color: #C90018 !important;
+}
+
+.email-limit {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 96px;
+    display: inline-block;
+}
+
+.currency-name{
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    padding-top: 14px;
+    display: inline-block;
+    min-width: 90px;
+    position: relative;
+    top: -15px;
+    color: #123099;
+}
+
+#candlestick{
+    position: relative;
+    left: 0;
+    width: 100% !important;
+}
+
+.highcharts-container{
+    width: 100%;
+}
+
+#market_list{
+    position: relative;
+    width: 100%;
+}
+
+.content{
+    background-color: #fff !important;
+}
+
+#market_list .panel-default{
+    background: #fff;
+    border-color: #fff;
+}
+
+#market_list {
+  .panel-default table tr td a, .price .text-up {
+    color: #444;
+  }
+  .table-hover tbody tr:hover{
+    background: #ccc;
+  }
+}
+
+.change .text-up{
+  color: #002DB2;
+}
+
+#market_list .table-hover {
+  tbody {
+    tr:hover {
+      td, th {
+        background: #ccc !important;
+      }
+    }
+  }
+}
+
+#ticker, #order_book, #market_trades, #my_orders, #market_list {
+  table {
+    tr.highlight {
+      background: #ccc !important;
+    }
+    tr {
+      td {
+        padding: 3px 0;
+      }
+    }
+  }
+  .table-hover tbody tr:hover {
+    th, td {
+      background-color: rgba(0, 0, 0, 0.075);
+    }
+  }
+}
+
+.stylish-input-group .input-group-addon{
+    background: white !important;
+}
+.stylish-input-group .form-control{
+    border-right:0;
+    box-shadow:0 0 0;
+    border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+#order_book {
+    width: 100%;
+    padding-top: 25px;
+}
+.search-box-top{
+    min-height: 34px;
+    border: none;
+}
+.search-top {
+  border: 2px solid #8d8d8d;
+  border-radius: 5px;
+  position: relative;
+}
+.search-top input {
+  border: 0;
+}
+.search-top input:focus {
+  outline: none;
+}
+.search-top {
+  .fa {
+    position: relative;
+    left: 5px;
+    color: #666;
+    z-index: 999;
+    top: 10px;
+  }
+  .fa-star {
+    position: relative;
+    right: 5px;
+    color: #666;
+    z-index: 999;
+    top: 10px;
+    margin-right: 10px;
+    color: #8d8d8d;
+  }
+}
+.currency-list{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  li {
+    display: inline-block;
+    border-radius: 8px;
+    background-color: #005222;
+    font-size: 14px;
+    padding: 5px 6px;
+    a {
+      color: #fff;
+      text-decoration: none;
+      i {
+        font-size: 12px;
+      }
+    }
+  }
+  li.active {
+    background-color: #650404;
+  }
+}
+
+#market_list_wrapper{
+  margin-top: 20px;
+}
+#market_list table td, #market_list table th {
+padding: 5px 2px;
+font-size: 16px;
+}
+input:focus, select:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.form-control.custom-select {
+  border: 0;
+  font-size: 20px;
+  color: #1c83d5;
+  padding: 0;
+  border-bottom: 1px solid #8d8d8d;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-radius: 0;
+  height: 35px;
+}
+
+#order_book.panel {
+  background-color: #fff;
+  border: 0;
+  position: relative;
+}
+#ask_entry.panel, #bid_entry.panel {
+background-color: #fff;
+border: 4px solid #8d8d8d;
+border-radius: 12px;
+position: relative;
+}
+#ask_entry.panel-default, #bid_entry.panel-default {
+  border-color: #8d8d8d;
+}
+#ask_entry, #bid_entry {
+  width: 100%;
+  height: 495px;
+  padding: 15px;
+  margin-bottom: 50px;
+}
+
+#ask_entry .input-group label.input-group-addon,
+#bid_entry .input-group label.input-group-addon {
+  padding: 0 !important;
+  min-width: 100% !important;
+  text-align: left !important;
+  color: #333 !important;
+  background: transparent !important;
+  border: 0 !important;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  text-transform: uppercase !important;
+}
+
+#ask_entry .input-group input,
+#bid_entry .input-group input {
+    text-align: left !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    width: 100% !important;
+    border: 0 !important;
+    border-bottom: 1px solid #8d8d8d !important;
+    color: #1438a4 !important;
+    position: relative;
+    font-size: 26px !important;
+    font-weight: bold !important;
+    margin: 10px 0 !important;
+}
+#ask_entry .input-group span.input-group-addon,
+#bid_entry .input-group span.input-group-addon {
+    padding: 3px 6px 0px 6px;
+    min-width: 40px;
+    text-align: left !important;
+    color: #8d8d8d !important;
+    font-weight: 500 !important;
+    position: absolute;
+    top: 25px !important;
+    z-index: 999;
+    right: 0 !important;
+    border: 0 !important;
+}
+.times {
+  text-transform: uppercase;
+  color: #333;
+  font-size: 20px;
+}
+.btn-middle-buy {
+  background-color: #1438a4;
+  color: #fff;
+  padding: 10px 15px;
+  margin-top: 10px;
+}
+.btn-middle-buy {
+  padding: 10px 35px;
+  border-radius: 5px;
+  border: 0;
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 24px;
+}
+.entry-left, .entry-right {
+  top: 0px;
+  right: 0;
+}
+
+.buy-btn, .sell-btn  {
+  font-size: 35px;
+  font-weight: bold;
+  border: 2px solid #8d8d8d;
+  border-radius: 4px;
+  width: auto;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: #fff;
+  text-align: center;
+  width: 150px;
+  height: 60px;
+  line-height: 40px;
+}
+.buy-btn:hover {
+  color: #132c9e;
+}
+#market_trades table tr td{
+  font-size: 16px;
+}
+.sell-btn:hover {
+  color: #c90300;
+}
+.nav.buysell_tabs_list {
+    margin: 0 auto;
+    width: inherit;
+    display: block;
+    text-align: center;
+
+}
+.nav.buysell_tabs_list li{
+  display: inline-block;
+}
+.nav.buysell_tabs_list li:last-child {
+  margin-left: 70px;
+}
+.buy-btn {
+  color: #132c9e;
+}
+.sell-btn {
+  color: #c90300;
+}
+.order_book_media {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.text-info1 {
+  color: #4156e1 !important;
+}
+.order_book-media_img img {
+  width: 60px;
+  border-radius: 50%;
+  margin-right: 15px;
+  margin-left: 50px;
+}
+.order_book_content {
+  text-align: center;
+  width: 75%;
+}
+
+.order_book_content h3 {
+  font-size: 2.75rem;
+  color: #888080;
+}
+.order_book_content h5 {
+  font-size: 2rem;
+}
+.order_book_content h6 {
+  font-size: 1.5rem;
+  color: #000;
+}
+
+.table-scroller {
+  height: 465px;
+  overflow-y: auto;
+  width: 100%;
+}
+
+.orderTabs {
+  .nav li.active > a,
+  .nav > li.active > a:hover,
+  .nav > li.active > a:focus {
+    color: #88061f;
+    background-color: transparent;
+    border: 2px solid #88061f;
+  }
+  .nav > li > a {
+    position: relative;
+    display: block;
+    padding: 2px 15px;
+    border: 2px solid #8d8d8d;
+    color: #8d8d8d;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 10px;
+  }
+  .nav > li:last-child {
+    margin-left: 10px;
+  }
+  .tab-content {
+    border: 3px solid #8d8d8d;
+    margin: 15px 0 0;
+    border-radius: 10px;
+  }
+  h2 {
+    margin: 0 0 20px;
+    font-size: 24px;
+  }
+  table {
+    width: 100%;
+  }
+
+  table.market-history-table {
+    th {
+      border-bottom: 1px solid #8d8d8d;
+      text-transform: uppercase;
+      font-weight: normal;
+      font-size: 16px;
+      margin-bottom: 5px;
+    }
+    td {
+      padding: 5px 0 0;
+    }
+  }
+  table.order-tabs-table {
+    width: 100%;
+    td:last-child ,th:last-child {
+      text-align: right;
+      padding-right: 10px;
+    }
+    td:first-child ,th:first-child {
+      padding-left: 10px;
+    }
+    th {
+      border-bottom: 1px solid #8d8d8d;
+      font-weight: normal;
+      padding: 5px 0;
+    }
+    td {
+      border-bottom: 2px solid #8d8d8d;
+      padding: 5px 0;
+    }
+    td i, th i {
+      color: #88061f;
+    }
+    .text-bold {
+      font-weight: bold;
+      color: #333;
+    }
+  }
+}
